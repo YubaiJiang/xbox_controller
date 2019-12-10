@@ -15,24 +15,24 @@ int main()
 	while (!controller.buttonBack())
 	{
 		cout << "u" << controller.buttonUp();
-		cout << "d" << controller.buttonDown();
-		cout << "l" << controller.buttonLeft();
-		cout << "r" << controller.buttonRight();
-		cout << "s" << controller.buttonStart();
-		cout << "lb" << controller.buttonLB();
-		cout << "RB" << controller.buttonRB();
-		cout << "A" << controller.buttonA();
-		cout << "B" << controller.buttonB();
-		cout << "X" << controller.buttonX();
-		cout << "Y" << controller.buttonY();
-		cout << "L3" << controller.buttonL3();
-		cout << "R3" << controller.buttonR3();
-		cout << "LX" << controller.stickLeftX();
-		cout << "LY" << controller.stickLeftY();
-		cout << "RX" << controller.stickRightX();
-		cout << "RY" << controller.stickRightY();
-		cout << "LT" << controller.LT();
-		cout << "RT" << controller.RT();
+		cout << " d" << controller.buttonDown();
+		cout << " l" << controller.buttonLeft();
+		cout << " r" << controller.buttonRight();
+		cout << " s" << controller.buttonStart();
+		cout << " lb" << controller.buttonLB();
+		cout << " RB" << controller.buttonRB();
+		cout << " A" << controller.buttonA();
+		cout << " B" << controller.buttonB();
+		cout << " X" << controller.buttonX();
+		cout << " Y" << controller.buttonY();
+		cout << " L3" << controller.buttonL3();
+		cout << " R3" << controller.buttonR3();
+		cout << " LX" << controller.stickLeftX();
+		cout << " LY" << controller.stickLeftY();
+		cout << " RX" << controller.stickRightX();
+		cout << " RY" << controller.stickRightY();
+		cout << " LT" << controller.LT();
+		cout << " RT" << controller.RT();
 		
 
 		int lv = controller.LT() * 100 / 255;
